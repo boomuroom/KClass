@@ -1,6 +1,5 @@
 # KClass
-KClass (or better name if you can suggest one) is a small set of functions to help simplify JavaScript programming. There are a few noteworthy features.
-
+KClass (or better name if you can suggest one) is a small set of functions to help simplify JavaScript programming. The goals for the project are:
 1. Simulating Classical-Inheritance.
 2. Provide private properties and methods
 3. Utilize Prototype chain effectively.
