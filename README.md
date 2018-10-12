@@ -1,4 +1,9 @@
 # KClass
+
+Disclaimer: After working on this for a while I've come to the conclusion that there is an inherent flaw in the design of this system that I don't think can be solved. The case where an inherited method attempts to call a private method from the base class will end up failing because the private method is not inherited. I haven't come up with a solution for this problem, but I am aware of it's existence.
+
+Additionally, JavaScript supports better mechanisms to defining classes such as closures and the class syntax brought in by the ES6 standard. I'd suggest you use those depending on your needs. Closures can provide private variables and methods if you need them.
+
 KClass (or better name if you can suggest one) is a small set of functions to help simplify JavaScript programming. The goals for the project are:
 1. Simulating Classical-Inheritance.
 2. Provide private properties and methods
